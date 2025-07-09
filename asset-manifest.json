@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kanarian-open-rankings/static/css/main.81feef51.css",
-    "main.js": "/kanarian-open-rankings/static/js/main.e95eb6f2.js",
+    "main.js": "/kanarian-open-rankings/static/js/main.994220ce.js",
     "static/js/453.31e9eecb.chunk.js": "/kanarian-open-rankings/static/js/453.31e9eecb.chunk.js",
     "index.html": "/kanarian-open-rankings/index.html",
     "main.81feef51.css.map": "/kanarian-open-rankings/static/css/main.81feef51.css.map",
-    "main.e95eb6f2.js.map": "/kanarian-open-rankings/static/js/main.e95eb6f2.js.map",
+    "main.994220ce.js.map": "/kanarian-open-rankings/static/js/main.994220ce.js.map",
     "453.31e9eecb.chunk.js.map": "/kanarian-open-rankings/static/js/453.31e9eecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81feef51.css",
-    "static/js/main.e95eb6f2.js"
+    "static/js/main.994220ce.js"
   ]
 }
