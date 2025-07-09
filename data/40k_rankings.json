@@ -82,7 +82,7 @@
     {
         "id": "AskoxoqdUy",
         "name": "Josué Acosta Rodríguez",
-        "rating": 1350.0,
+        "rating": 1500.0,
         "mainFaction": "Necrons",
         "matches": 3,
         "matchesWon": 1,
@@ -192,7 +192,7 @@
     {
         "id": "aW3ZX1uUU3SZ",
         "name": "Febe Fariña",
-        "rating": 1080.3367766036376,
+        "rating": 1200.374196226264,
         "mainFaction": "Chaos Space Marines",
         "matches": 3,
         "matchesWon": 0,
@@ -212,7 +212,7 @@
     {
         "id": "X6ETKJGK8N",
         "name": "Dmitriy Nizhnik",
-        "rating": 1439.8877387035277,
+        "rating": 1500.0,
         "mainFaction": "Adepta Sororitas",
         "matches": 3,
         "matchesWon": 2,
@@ -222,7 +222,7 @@
     {
         "id": "7PKV4P9B5P",
         "name": "Alejandro Peraza",
-        "rating": 1350.0,
+        "rating": 1500.0,
         "mainFaction": "Death Guard",
         "matches": 3,
         "matchesWon": 1,
@@ -232,7 +232,7 @@
     {
         "id": "OLAF4Qmjpk",
         "name": "Gabriel Alexis Felipe Herrera",
-        "rating": 1260.1122612964723,
+        "rating": 1400.124734773858,
         "mainFaction": "Dark Angels",
         "matches": 3,
         "matchesWon": 1,
@@ -282,7 +282,7 @@
     {
         "id": "gH5Ac4QDHh",
         "name": "Jonay García Padilla",
-        "rating": 1203.9201954843322,
+        "rating": 1337.6891060937023,
         "mainFaction": "World Eaters",
         "matches": 1,
         "matchesWon": 0,
@@ -292,7 +292,7 @@
     {
         "id": "HERRHT9K1R",
         "name": "Alex tuno",
-        "rating": 1203.9201954843322,
+        "rating": 1337.6891060937023,
         "mainFaction": "Leagues of Votann",
         "matches": 1,
         "matchesWon": 0,
