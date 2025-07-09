@@ -75,9 +75,9 @@ const KanarianOpenRankings: React.FC = () => {
         {/* Tabs */}
         <div className="flex justify-center  border-canary-darkgreen">
           {[
-            { id: "40k", src: "/media/40k_logo.png", alt: "Warhammer 40K" },
-            { id: "aos", src: "/media/aos_logo.png", alt: "Age of Sigmar" },
-            { id: "tow", src: "/media/tow_logo.png", alt: "The Old World" },
+            { id: "40k", src: "/media/40k-logo.png", alt: "Warhammer 40K" },
+            { id: "aos", src: "/media/aos-logo.png", alt: "Age of Sigmar" },
+            { id: "tow", src: "/media/tow-logo.png", alt: "The Old World" },
           ].map((tab) => (
             <div
               key={tab.id}
