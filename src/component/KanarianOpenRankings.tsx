@@ -68,7 +68,7 @@ const KanarianOpenRankings: React.FC = () => {
           <img
             src="./kanarian-open-rankings/media/logo-kanarian-open.jpeg"
             alt="Kanarian Open Logo"
-            className="mx-auto mb-4 w-72 h-auto"
+            className="mx-auto mb-4 w-100 h-32"
           />
         </header>
 
