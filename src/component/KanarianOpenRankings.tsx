@@ -22,7 +22,7 @@ const KanarianOpenRankings: React.FC = () => {
 
   // Cargar rankings según la pestaña seleccionada
   useEffect(() => {
-    const path = `./kanarian-open-rankings/data/${activeTab}_rankings.json`;
+    const path = `./data/${activeTab}_rankings.json`;
     fetch(path)
       .then((res) => res.json())
       .then(setPlayers)
@@ -66,7 +66,7 @@ const KanarianOpenRankings: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         <header className="text-center">
           <img
-            src="./kanarian-open-rankings/media/logo-kanarian-open.jpeg"
+            src="./media/logo-kanarian-open.jpeg"
             alt="Kanarian Open Logo"
             className="mx-auto mb-4 w-100 h-32"
           />
@@ -75,9 +75,9 @@ const KanarianOpenRankings: React.FC = () => {
         {/* Tabs */}
         <div className="flex justify-center  border-canary-darkgreen">
           {[
-            { id: "40k", src: "./kanarian-open-rankings/media/40k-logo.png", alt: "Warhammer 40K" },
-            { id: "aos", src: "./kanarian-open-rankings/media/aos-logo.png", alt: "Age of Sigmar" },
-            { id: "tow", src: "./kanarian-open-rankings/media/tow-logo.png", alt: "The Old World" },
+            { id: "40k", src: "./media/40k-logo.png", alt: "Warhammer 40K" },
+            { id: "aos", src: "./media/aos-logo.png", alt: "Age of Sigmar" },
+            { id: "tow", src: "./media/tow-logo.png", alt: "The Old World" },
           ].map((tab) => (
             <div
               key={tab.id}
