@@ -1,0 +1,272 @@
+[
+    {
+        "id": "iletEeEb9x",
+        "name": "Miguel Merino",
+        "rating": 1865.214546840219,
+        "mainFaction": "Seraphon",
+        "matches": 6,
+        "matchesWon": 4,
+        "matchesLost": 0,
+        "rd": 167.68075342317888
+    },
+    {
+        "id": "wcXyAISD4O",
+        "name": "Gorka Koldobika Llarena Vélez",
+        "rating": 1799.625803773736,
+        "mainFaction": "Ironjawz",
+        "matches": 3,
+        "matchesWon": 3,
+        "matchesLost": 0,
+        "rd": 227.73540249000166
+    },
+    {
+        "id": "FX1B0W6TVM",
+        "name": "Tana Díaz",
+        "rating": 1634.1617933330724,
+        "mainFaction": "Stormcast Eternals",
+        "matches": 6,
+        "matchesWon": 3,
+        "matchesLost": 2,
+        "rd": 167.68074816488263
+    },
+    {
+        "id": "5L0gCqaBhs",
+        "name": "Javier Gil",
+        "rating": 1599.875265226142,
+        "mainFaction": "Gloomspite Gitz",
+        "matches": 6,
+        "matchesWon": 3,
+        "matchesLost": 2,
+        "rd": 167.6807429603526
+    },
+    {
+        "id": "DV06N4TYNX",
+        "name": "Omero Romolo",
+        "rating": 1619.0954433586262,
+        "mainFaction": "Stormcast Eternals",
+        "matches": 9,
+        "matchesWon": 5,
+        "matchesLost": 4,
+        "rd": 135.08989856847325
+    },
+    {
+        "id": "34JQ329Y5G",
+        "name": "Denis Álvarez Medina",
+        "rating": 1665.464002015145,
+        "mainFaction": "Kruleboyz",
+        "matches": 6,
+        "matchesWon": 4,
+        "matchesLost": 2,
+        "rd": 167.6807450102015
+    },
+    {
+        "id": "Mb1R4lugeE",
+        "name": "Abián Daniel Belza Salas",
+        "rating": 1534.2865284371387,
+        "mainFaction": "Blades of Khorne",
+        "matches": 9,
+        "matchesWon": 4,
+        "matchesLost": 4,
+        "rd": 135.08989241227607
+    },
+    {
+        "id": "U42VN8X519",
+        "name": "Fran Hernández",
+        "rating": 1584.8089148060462,
+        "mainFaction": "Soulblight Gravelords",
+        "matches": 9,
+        "matchesWon": 4,
+        "matchesLost": 3,
+        "rd": 135.08991092118157
+    },
+    {
+        "id": "FRkuiaVBVnfb",
+        "name": "Zequi Glez",
+        "rating": 1268.9472515731406,
+        "mainFaction": "Fyreslayers",
+        "matches": 6,
+        "matchesWon": 1,
+        "matchesLost": 4,
+        "rd": 167.6807511604317
+    },
+    {
+        "id": "KVBCJQY8GU",
+        "name": "Alberto Hernández Delgado",
+        "rating": 1288.167439328336,
+        "mainFaction": "Daughters of Khaine",
+        "matches": 9,
+        "matchesWon": 3,
+        "matchesLost": 6,
+        "rd": 135.08989856847325
+    },
+    {
+        "id": "Gsh0SBXZZB",
+        "name": "Nacho SG",
+        "rating": 1380.9045566413738,
+        "mainFaction": "Hedonites of Slaanesh",
+        "matches": 9,
+        "matchesWon": 4,
+        "matchesLost": 5,
+        "rd": 135.08989856847325
+    },
+    {
+        "id": "FYXVCk6U3AIo",
+        "name": "Carlos Hernandez",
+        "rating": 1596.8909836373232,
+        "mainFaction": "Maggotkin of Nurgle",
+        "matches": 6,
+        "matchesWon": 4,
+        "matchesLost": 2,
+        "rd": 167.6807614132059
+    },
+    {
+        "id": "tvciWyflDYBv",
+        "name": "Mel Becerra",
+        "rating": 1400.124734773858,
+        "mainFaction": "Stormcast Eternals",
+        "matches": 3,
+        "matchesWon": 1,
+        "matchesLost": 2,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "sY7gpl9zPX",
+        "name": "Sergio González",
+        "rating": 1400.124734773858,
+        "mainFaction": "Soulblight Gravelords",
+        "matches": 3,
+        "matchesWon": 1,
+        "matchesLost": 2,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "1J75Y1GRFG",
+        "name": "Johan Afonso",
+        "rating": 1265.9629392927473,
+        "mainFaction": "Lumineth Realm-Lords",
+        "matches": 6,
+        "matchesWon": 2,
+        "matchesLost": 4,
+        "rd": 167.68075342317888
+    },
+    {
+        "id": "Fi1wxHfxs0WH",
+        "name": "Raúl Guigou",
+        "rating": 1200.374196226264,
+        "mainFaction": "Nighthaunt",
+        "matches": 3,
+        "matchesWon": 0,
+        "matchesLost": 3,
+        "rd": 227.73540249000166
+    },
+    {
+        "id": "FcZhJb9Pwc5C",
+        "name": "Alejandro González",
+        "rating": 1799.625803773736,
+        "mainFaction": "Gloomspite Gitz",
+        "matches": 3,
+        "matchesWon": 3,
+        "matchesLost": 0,
+        "rd": 227.73540249000166
+    },
+    {
+        "id": "PHV2RAQ2CD",
+        "name": "Jhonny Francés Rodriguez",
+        "rating": 1699.7505324759923,
+        "mainFaction": "Stormcast Eternals",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 0,
+        "rd": 227.73540056713045
+    },
+    {
+        "id": "qEzv1CcJiJ",
+        "name": "Eduardo \"Gaspi\"",
+        "rating": 1599.875265226142,
+        "mainFaction": "Cities of Sigmar",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 1,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "Ytu6VcrQcr",
+        "name": "David Hernández López",
+        "rating": 1599.875265226142,
+        "mainFaction": "Beasts of Chaos",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 1,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "KhDB4cb6Jv",
+        "name": "Felipe Padrón",
+        "rating": 1400.124734773858,
+        "mainFaction": "Soulblight Gravelords",
+        "matches": 3,
+        "matchesWon": 1,
+        "matchesLost": 2,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "Wbrm4ARGltvh",
+        "name": "Federico Atela",
+        "rating": 1400.124734773858,
+        "mainFaction": "Stormcast Eternals",
+        "matches": 3,
+        "matchesWon": 1,
+        "matchesLost": 2,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "LMrYdQ0dJM5A",
+        "name": "Daniel de Jesús González Suárez",
+        "rating": 1200.374196226264,
+        "mainFaction": "Lumineth Realm-Lords",
+        "matches": 3,
+        "matchesWon": 0,
+        "matchesLost": 3,
+        "rd": 227.73540249000166
+    },
+    {
+        "id": "5VMMYWBHNP",
+        "name": "Jesús Yeray",
+        "rating": 1200.374196226264,
+        "mainFaction": "Maggotkin of Nurgle",
+        "matches": 3,
+        "matchesWon": 0,
+        "matchesLost": 3,
+        "rd": 227.73540249000166
+    },
+    {
+        "id": "601TLQJK67",
+        "name": "Aaron Ramos",
+        "rating": 1699.7505324759923,
+        "mainFaction": "Soulblight Gravelords",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 0,
+        "rd": 227.73540056713045
+    },
+    {
+        "id": "MWYGW4CJG8",
+        "name": "Gorka Koldobika Llarena Vélez",
+        "rating": 1599.875265226142,
+        "mainFaction": "Ironjawz",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 1,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "KIvUSGkYzn7q",
+        "name": "Jonatan Aguiar",
+        "rating": 1200.374196226264,
+        "mainFaction": "Soulblight Gravelords",
+        "matches": 3,
+        "matchesWon": 0,
+        "matchesLost": 3,
+        "rd": 227.73540249000166
+    }
+]
