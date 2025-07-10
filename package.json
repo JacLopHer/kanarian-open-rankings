@@ -1,7 +1,7 @@
 {
   "name": "kanarian-open-rankings",
   "version": "0.1.0",
-
+  "homepage": "https://JacLopHer.github.io/kanarian-open-rankings",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
