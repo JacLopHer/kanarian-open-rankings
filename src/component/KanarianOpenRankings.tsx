@@ -30,7 +30,15 @@ const KanarianOpenRankings: React.FC = () => {
     const path = `./data/${activeTab}_rankings.json`;
     fetch(path)
       .then((res) => res.json())
-      .then(setPlayers)
+      .then((data: Player[]) => {
+        const sorted = [...data]
+          .sort((a, b) => b.rating - a.rating)
+          .map((player, index) => ({
+            ...player,
+            position: index + 1,
+          }));
+        setPlayers(sorted);
+      })
       .catch(console.error);
   }, [activeTab]);
 
@@ -45,17 +53,12 @@ const KanarianOpenRankings: React.FC = () => {
     setSearch("");
   };
 
-  
-  const filteredPlayers = players
-    .filter((p) =>
+
+  const filteredPlayers = players.filter(
+    (p) =>
       p.name.toLowerCase().includes(search.toLowerCase()) ||
       p.mainFaction.toLowerCase().includes(search.toLowerCase())
-    )
-    .sort((a, b) => b.rating - a.rating)
-    .map((player, index) => ({
-      ...player,
-      position: index + 1,
-    }));;
+  );
 
   const totalPages = Math.ceil(filteredPlayers.length / PAGE_SIZE);
   const playersPage = filteredPlayers.slice(
