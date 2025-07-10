@@ -8,6 +8,7 @@ type Player = {
     matches: number;
     matchesWon: number;
     matchesLost: number;
+    position: number;
 };
 
 type Props = {
@@ -82,7 +83,7 @@ const RankingTable: React.FC<Props> = ({ players, startIndex = 0 }) => {
                                     }`}
                             >
                                 <td className="px-4 py-2 text-canary-accent font-medium text-left">
-                                    {startIndex + index + 1}
+                                    {player.position}
                                 </td>
                                 <td className="px-4 py-2 text-canary-accent text-left">{player.name}</td>
                                 <td className="px-4 py-2 text-canary-accent text-left">{player.mainFaction}</td>
