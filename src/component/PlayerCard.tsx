@@ -48,26 +48,28 @@ export const PlayerCard: React.FC<Props> = ({ player }) => {
         (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 10px ${colors.darkgreen}`;
       }}
     >
-      <h3 style={{
-        fontSize: "1.5rem",
-        fontWeight: "800",
-        color: colors.darkgreen,
-        marginBottom: "0.75rem",
-        textAlign: "center",
-        userSelect: "none"
-      }}>
-        {player.name}
-      </h3>
-      <div style={{
-        lineHeight: 1.5,
-        fontSize: "1rem",
-        fontWeight: "500",
-      }}>
-        <p><strong>Facción:</strong> {player.mainFaction}</p>
-        <p><strong>Rating:</strong> {player.rating.toFixed(2)}</p>
-        <p><strong>Partidas:</strong> {player.matches}</p>
-        <p><strong>Ganadas:</strong> {player.matchesWon}</p>
-        <p><strong>Perdidas:</strong> {player.matchesLost}</p>
+      <div style={{ maxHeight: "80vh", overflowY: "auto" }}>
+        <h3 style={{
+          fontSize: "1.5rem",
+          fontWeight: "800",
+          color: colors.darkgreen,
+          marginBottom: "0.75rem",
+          textAlign: "center",
+          userSelect: "none"
+        }}>
+          {player.name}
+        </h3>
+        <div style={{
+          lineHeight: 1.5,
+          fontSize: "1rem",
+          fontWeight: "500",
+        }}>
+          <p><strong>Facción:</strong> {player.mainFaction}</p>
+          <p><strong>Rating:</strong> {player.rating.toFixed(2)}</p>
+          <p><strong>Partidas:</strong> {player.matches}</p>
+          <p><strong>Ganadas:</strong> {player.matchesWon}</p>
+          <p><strong>Perdidas:</strong> {player.matchesLost}</p>
+        </div>
       </div>
     </div>
   );
