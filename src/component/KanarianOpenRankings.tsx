@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RankingTable from "./RankingTable.tsx";
-import RankingsTabs from "./RankingTabs.tsx";
+import VersusView from "./VersusView.tsx";
+
 
 type Player = {
   id: string;
@@ -14,11 +15,24 @@ type Player = {
 
 const PAGE_SIZE = 20;
 
+function ModeSwitcher({ mode, setMode }: { mode: string; setMode: (m: string) => void }) {
+  return (
+    <button
+      onClick={() => setMode(mode === "ranking" ? "versus" : "ranking")}
+      className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded z-10"
+    >
+      {mode === "ranking" ? "Modo Versus" : "Ver Ranking"}
+    </button>
+  );
+}
+
+
 const KanarianOpenRankings: React.FC = () => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [search, setSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [activeTab, setActiveTab] = useState<"40k" | "aos" | "tow">("40k");
+  const [mode, setMode] = useState<"ranking" | "versus">("ranking");
 
   // Cargar rankings según la pestaña seleccionada
   useEffect(() => {
@@ -71,7 +85,7 @@ const KanarianOpenRankings: React.FC = () => {
             className="mx-auto mb-4 w-100 h-32"
           />
         </header>
-
+        <ModeSwitcher mode={mode} setMode={setMode} />
         {/* Tabs */}
         <div className="flex justify-center  border-canary-darkgreen">
           {[
@@ -95,79 +109,87 @@ const KanarianOpenRankings: React.FC = () => {
           ))}
         </div>
 
-        {/* Search */}
         <div className="mb-6 text-center">
-          <input
-            type="text"
-            placeholder="Buscar jugador o facción..."
-            className="w-full max-w-md px-4 py-2 border border-canary.lightgreen rounded-lg focus:outline-none focus:ring-2 focus:ring-canary.accent bg-white text-canary.darkgreen"
-            value={search}
-            onChange={handleSearchChange}
-          />
-        </div>
+  {/* Mostrar buscador solo en modo ranking */}
+  {mode === "ranking" && (
+    <input
+      type="text"
+      placeholder="Buscar jugador o facción..."
+      className="w-full max-w-md px-4 py-2 border border-canary.lightgreen rounded-lg focus:outline-none focus:ring-2 focus:ring-canary.accent bg-white text-canary.darkgreen"
+      value={search}
+      onChange={handleSearchChange}
+    />
+  )}
+</div>
 
-        {players.length > 0 ? (
-          <>
-            <div className="overflow-x-auto">
-              <RankingTable players={playersPage} startIndex={(currentPage - 1) * PAGE_SIZE} />
-            </div>
+{players.length > 0 ? (
+  mode === "ranking" ? (
+    <>
+      <div className="overflow-x-auto">
+        <RankingTable players={playersPage} startIndex={(currentPage - 1) * PAGE_SIZE} />
+      </div>
 
-            {/* Pagination */}
-            <div className="flex justify-center mt-6 space-x-2">
+      {/* Pagination */}
+      <div className="flex justify-center mt-6 space-x-2">
+        <button
+          onClick={() => handlePageChange(currentPage - 1)}
+          disabled={currentPage === 1}
+          className="px-3 py-1 bg-canary.accent text-canary.white rounded disabled:opacity-50"
+        >
+          Anterior
+        </button>
+
+        {Array.from({ length: totalPages }, (_, i) => i + 1)
+          .filter(
+            (page) =>
+              page === 1 ||
+              page === totalPages ||
+              (page >= currentPage - 2 && page <= currentPage + 2)
+          )
+          .map((page, i, arr) => {
+            if (i > 0 && page - arr[i - 1] > 1) {
+              return (
+                <span
+                  key={`dots-${page}`}
+                  className="px-2 py-1 text-canary.lightgreen"
+                >
+                  ...
+                </span>
+              );
+            }
+            return (
               <button
-                onClick={() => handlePageChange(currentPage - 1)}
-                disabled={currentPage === 1}
-                className="px-3 py-1 bg-canary.accent text-canary.white rounded disabled:opacity-50"
+                key={page}
+                onClick={() => handlePageChange(page)}
+                className={`px-3 py-1 rounded ${
+                  page === currentPage
+                    ? "bg-canary.darkgreen text-canary.white font-bold"
+                    : "bg-canary.accent text-canary.white"
+                }`}
               >
-                Anterior
+                {page}
               </button>
+            );
+          })}
 
-              {Array.from({ length: totalPages }, (_, i) => i + 1)
-                .filter(
-                  (page) =>
-                    page === 1 ||
-                    page === totalPages ||
-                    (page >= currentPage - 2 && page <= currentPage + 2)
-                )
-                .map((page, i, arr) => {
-                  if (i > 0 && page - arr[i - 1] > 1) {
-                    return (
-                      <span
-                        key={`dots-${page}`}
-                        className="px-2 py-1 text-canary.lightgreen"
-                      >
-                        ...
-                      </span>
-                    );
-                  }
-                  return (
-                    <button
-                      key={page}
-                      onClick={() => handlePageChange(page)}
-                      className={`px-3 py-1 rounded ${page === currentPage
-                        ? "bg-canary.darkgreen text-canary.white font-bold"
-                        : "bg-canary.accent text-canary.white"
-                        }`}
-                    >
-                      {page}
-                    </button>
-                  );
-                })}
+        <button
+          onClick={() => handlePageChange(currentPage + 1)}
+          disabled={currentPage === totalPages}
+          className="px-3 py-1 bg-canary.accent text-canary.white rounded disabled:opacity-50"
+        >
+          Siguiente
+        </button>
+      </div>
+    </>
+  ) : (
+    <VersusView players={players} />
+  )
+) : (
+  <p className="text-center text-canary.lightgreen">
+    Cargando datos...
+  </p>
+)}
 
-              <button
-                onClick={() => handlePageChange(currentPage + 1)}
-                disabled={currentPage === totalPages}
-                className="px-3 py-1 bg-canary.accent text-canary.white rounded disabled:opacity-50"
-              >
-                Siguiente
-              </button>
-            </div>
-          </>
-        ) : (
-          <p className="text-center text-canary.lightgreen">
-            Cargando datos...
-          </p>
-        )}
       </div>
     </div>
   );
