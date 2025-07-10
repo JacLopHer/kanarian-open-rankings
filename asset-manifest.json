@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c67f97e.css",
-    "main.js": "/static/js/main.59ce4f1e.js",
-    "static/js/453.31e9eecb.chunk.js": "/static/js/453.31e9eecb.chunk.js",
-    "index.html": "/index.html",
-    "main.9c67f97e.css.map": "/static/css/main.9c67f97e.css.map",
-    "main.59ce4f1e.js.map": "/static/js/main.59ce4f1e.js.map",
-    "453.31e9eecb.chunk.js.map": "/static/js/453.31e9eecb.chunk.js.map"
+    "main.css": "/kanarian-open-rankings/static/css/main.9c67f97e.css",
+    "main.js": "/kanarian-open-rankings/static/js/main.0c044ff2.js",
+    "static/js/453.31e9eecb.chunk.js": "/kanarian-open-rankings/static/js/453.31e9eecb.chunk.js",
+    "index.html": "/kanarian-open-rankings/index.html",
+    "main.9c67f97e.css.map": "/kanarian-open-rankings/static/css/main.9c67f97e.css.map",
+    "main.0c044ff2.js.map": "/kanarian-open-rankings/static/js/main.0c044ff2.js.map",
+    "453.31e9eecb.chunk.js.map": "/kanarian-open-rankings/static/js/453.31e9eecb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c67f97e.css",
-    "static/js/main.59ce4f1e.js"
+    "static/js/main.0c044ff2.js"
   ]
 }
