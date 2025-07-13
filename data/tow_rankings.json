@@ -158,25 +158,5 @@
         "matchesWon": 0,
         "matchesLost": 3,
         "rd": 227.73540249000166
-    },
-    {
-        "id": "LxJ4tgbgLaOT",
-        "name": "KarlyS Campos",
-        "rating": 1200.374196226264,
-        "mainFaction": "Wood Elf Realms",
-        "matches": 3,
-        "matchesWon": 0,
-        "matchesLost": 3,
-        "rd": 227.73540249000166
-    },
-    {
-        "id": "7PKV4P9B5P",
-        "name": "Alejandro Peraza",
-        "rating": 1200.374196226264,
-        "mainFaction": "Orc & Goblin Tribes",
-        "matches": 3,
-        "matchesWon": 0,
-        "matchesLost": 3,
-        "rd": 227.73540249000166
     }
 ]
