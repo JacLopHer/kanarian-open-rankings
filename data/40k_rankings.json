@@ -2,82 +2,82 @@
     {
         "id": "CsSlNGinob",
         "name": "Jacinto López",
-        "rating": 2158.2314069721456,
+        "rating": 2260.988038186101,
         "mainFaction": "Emperor's Children",
-        "matches": 15,
-        "matchesWon": 13,
+        "matches": 20,
+        "matchesWon": 18,
         "matchesLost": 1,
-        "rd": 101.65085588623481
+        "rd": 86.6177563280099
     },
     {
         "id": "9MdjcyLvNm",
         "name": "Nelson WiRm",
-        "rating": 2042.760666803193,
+        "rating": 2131.4695709485886,
         "mainFaction": "Chaos Daemons",
-        "matches": 9,
-        "matchesWon": 8,
-        "matchesLost": 1,
-        "rd": 135.0899541941371
+        "matches": 14,
+        "matchesWon": 12,
+        "matchesLost": 2,
+        "rd": 105.72580999223942
     },
     {
         "id": "1jPiY3VbdMzy",
         "name": "Jorge Hoyos Aleman",
-        "rating": 1773.267583334944,
+        "rating": 1743.6979706342827,
         "mainFaction": "Necrons",
-        "matches": 9,
-        "matchesWon": 6,
-        "matchesLost": 2,
-        "rd": 135.08995421910507
+        "matches": 14,
+        "matchesWon": 8,
+        "matchesLost": 5,
+        "rd": 105.72577063753545
     },
     {
         "id": "Q4B2PLA2CD",
         "name": "Marcos Sokram Mejias",
-        "rating": 1665.464002015145,
+        "rating": 1778.042733061095,
         "mainFaction": "Adeptus Custodes",
-        "matches": 6,
-        "matchesWon": 4,
-        "matchesLost": 2,
-        "rd": 167.6807450102015
+        "matches": 11,
+        "matchesWon": 8,
+        "matchesLost": 3,
+        "rd": 121.52863631046792
     },
     {
         "id": "FwshDG3NU7",
         "name": "Jose Arturo Pérez Díaz",
-        "rating": 1676.7790775191427,
+        "rating": 1704.7134708092617,
         "mainFaction": "Chaos Daemons",
-        "matches": 12,
-        "matchesWon": 7,
-        "matchesLost": 5,
-        "rd": 115.11279974807951
+        "matches": 15,
+        "matchesWon": 9,
+        "matchesLost": 6,
+        "rd": 101.6504212119552
     },
     {
         "id": "7F4180KHHR",
         "name": "Julian Lorenzo",
-        "rating": 1777.4213166472387,
+        "rating": 1882.58198850209,
         "mainFaction": "Thousand Sons",
-        "matches": 9,
-        "matchesWon": 6,
+        "matches": 12,
+        "matchesWon": 9,
         "matchesLost": 2,
-        "rd": 135.08991304689116
+        "rd": 115.11292242828976
     },
     {
         "id": "VJW369X27K",
         "name": "Carlos Mesa",
-        "rating": 1468.6977820254244,
-        "mainFaction": "Death Guard",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 3,
-        "rd": 167.6807511604317
+        "rating": 1515.0663502458037,
+        "mainFaction": "Emperor's Children",
+        "matches": 9,
+        "matchesWon": 4,
+        "matchesLost": 4,
+        "rd": 135.08991304689116
     },
     {
         "id": "rhGTMKfGO9",
         "name": "Daniel Afonso",
-        "rating": 1619.0954433586262,
+        "rating": 1648.6650076298183,
         "mainFaction": "Aeldari",
-        "matches": 9,
-        "matchesWon": 5,
-        "matchesLost": 4,
-        "rd": 135.08989856847325
+        "matches": 14,
+        "matchesWon": 8,
+        "matchesLost": 6,
+        "rd": 105.72568067665554
     },
     {
         "id": "AskoxoqdUy",
@@ -92,12 +92,12 @@
     {
         "id": "mDcuAXa7hC",
         "name": "Diego Ravelo Díaz",
-        "rating": 1500.0,
-        "mainFaction": "Orks",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 2,
-        "rd": 167.6807419088778
+        "rating": 1537.526226146447,
+        "mainFaction": "Chaos Knights",
+        "matches": 11,
+        "matchesWon": 5,
+        "matchesLost": 4,
+        "rd": 121.52860766803488
     },
     {
         "id": "qEzv1CcJiJ",
@@ -112,12 +112,12 @@
     {
         "id": "WHKE87CC9M",
         "name": "Vasilii Klaiman",
-        "rating": 1551.3315345779101,
+        "rating": 1574.4897569193572,
         "mainFaction": "Necrons",
-        "matches": 15,
-        "matchesWon": 8,
-        "matchesLost": 6,
-        "rd": 101.65048364617265
+        "matches": 18,
+        "matchesWon": 10,
+        "matchesLost": 7,
+        "rd": 91.94741792623203
     },
     {
         "id": "fPQhJooqNx",
@@ -132,12 +132,12 @@
     {
         "id": "HD2QTP44GB",
         "name": "Javier Lino De Lara",
-        "rating": 1528.1211193160505,
-        "mainFaction": "Necrons",
-        "matches": 18,
-        "matchesWon": 10,
-        "matchesLost": 8,
-        "rd": 91.94732914169305
+        "rating": 1510.2901219160688,
+        "mainFaction": "Dark Angels",
+        "matches": 23,
+        "matchesWon": 11,
+        "matchesLost": 10,
+        "rd": 80.33373127032173
     },
     {
         "id": "YXBF6B4A6J",
@@ -162,12 +162,12 @@
     {
         "id": "QBC8AA02YU",
         "name": "Adolfo Cavia Saiz",
-        "rating": 1547.1355133719014,
+        "rating": 1575.0699066620205,
         "mainFaction": "Death Guard",
-        "matches": 12,
-        "matchesWon": 7,
-        "matchesLost": 5,
-        "rd": 115.11279974807951
+        "matches": 15,
+        "matchesWon": 9,
+        "matchesLost": 6,
+        "rd": 101.6504212119552
     },
     {
         "id": "HR52WRRX85",
@@ -182,12 +182,12 @@
     {
         "id": "D1KX2GAUBU",
         "name": "Adrián Perera",
-        "rating": 1146.8865439611473,
+        "rating": 1123.7283445002713,
         "mainFaction": "Tyranids",
-        "matches": 15,
-        "matchesWon": 5,
-        "matchesLost": 9,
-        "rd": 101.65045154776247
+        "matches": 18,
+        "matchesWon": 6,
+        "matchesLost": 11,
+        "rd": 91.94737113523287
     },
     {
         "id": "aW3ZX1uUU3SZ",
@@ -202,12 +202,12 @@
     {
         "id": "8iEgl03zlJ",
         "name": "Daniel Díaz Alonso",
-        "rating": 2137.4158288186313,
+        "rating": 2206.8915509855115,
         "mainFaction": "Dark Angels",
-        "matches": 15,
-        "matchesWon": 13,
+        "matches": 18,
+        "matchesWon": 16,
         "matchesLost": 2,
-        "rd": 101.650825831571
+        "rd": 91.94813073541454
     },
     {
         "id": "X6ETKJGK8N",
@@ -242,12 +242,12 @@
     {
         "id": "9JVMYJVPMU",
         "name": "Carlos Martin",
-        "rating": 1334.535997984855,
+        "rating": 1288.167439328336,
         "mainFaction": "Death Guard",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 4,
-        "rd": 167.6807450102015
+        "matches": 9,
+        "matchesWon": 3,
+        "matchesLost": 6,
+        "rd": 135.08989856847325
     },
     {
         "id": "3rNdpw1RkN",
@@ -262,22 +262,22 @@
     {
         "id": "v8EndSKeNTBx",
         "name": "Joaquín Acevedo Díaz",
-        "rating": 1334.535997984855,
+        "rating": 1288.167439328336,
         "mainFaction": "Adeptus Mechanicus",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 4,
-        "rd": 167.6807450102015
+        "matches": 9,
+        "matchesWon": 3,
+        "matchesLost": 6,
+        "rd": 135.08989856847325
     },
     {
         "id": "nllz8tjuBW",
         "name": "Josué Hernández Rodríguez",
-        "rating": 1265.9629392927473,
+        "rating": 1219.5943694757416,
         "mainFaction": "World Eaters",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 4,
-        "rd": 167.68075342317888
+        "matches": 9,
+        "matchesWon": 3,
+        "matchesLost": 6,
+        "rd": 135.08991557385582
     },
     {
         "id": "gH5Ac4QDHh",
@@ -362,12 +362,12 @@
     {
         "id": "9Slgc9oaB6",
         "name": "Jesus Socas",
-        "rating": 1465.7134715628613,
+        "rating": 1419.3449129063424,
         "mainFaction": "Dark Angels",
-        "matches": 6,
-        "matchesWon": 3,
-        "matchesLost": 3,
-        "rd": 167.6807450102015
+        "matches": 9,
+        "matchesWon": 4,
+        "matchesLost": 5,
+        "rd": 135.08989856847325
     },
     {
         "id": "KqRfKNmMgKqE",
@@ -422,22 +422,22 @@
     {
         "id": "4y6gnnANFV",
         "name": "Eduardo Cortell",
-        "rating": 1935.747368088227,
+        "rating": 1965.3170046473315,
         "mainFaction": "Death Guard",
-        "matches": 9,
-        "matchesWon": 8,
-        "matchesLost": 1,
-        "rd": 135.08998647152472
+        "matches": 14,
+        "matchesWon": 11,
+        "matchesLost": 3,
+        "rd": 105.7258152499882
     },
     {
         "id": "TDzU0THOkk",
         "name": "Migue Pincho",
-        "rating": 1334.535997984855,
+        "rating": 1297.0097688081473,
         "mainFaction": "Necrons",
-        "matches": 6,
-        "matchesWon": 2,
-        "matchesLost": 4,
-        "rd": 167.6807450102015
+        "matches": 11,
+        "matchesWon": 3,
+        "matchesLost": 6,
+        "rd": 121.52861282281788
     },
     {
         "id": "cmtye0qBMj",
@@ -572,22 +572,22 @@
     {
         "id": "2sheB8GXjLpJ",
         "name": "Ayoze Hernández",
-        "rating": 1599.875265226142,
-        "mainFaction": "Adeptus Custodes",
-        "matches": 3,
-        "matchesWon": 2,
-        "matchesLost": 1,
-        "rd": 227.73539941351623
+        "rating": 1650.0963289176057,
+        "mainFaction": "Imperial Knights",
+        "matches": 8,
+        "matchesWon": 5,
+        "matchesLost": 3,
+        "rd": 146.72749901743748
     },
     {
         "id": "MoJuTMCmxD",
         "name": "José Luis Moreno Macario",
-        "rating": 1599.875265226142,
+        "rating": 1650.0963289176057,
         "mainFaction": "Tyranids",
-        "matches": 3,
-        "matchesWon": 2,
-        "matchesLost": 1,
-        "rd": 227.73539941351623
+        "matches": 8,
+        "matchesWon": 5,
+        "matchesLost": 3,
+        "rd": 146.72749901743748
     },
     {
         "id": "5xRDeKydj2",
@@ -602,12 +602,12 @@
     {
         "id": "F4z9kP2VTpvY",
         "name": "Nicolas Saavedra",
-        "rating": 1400.124734773858,
-        "mainFaction": "Dark Angels",
-        "matches": 3,
-        "matchesWon": 1,
-        "matchesLost": 2,
-        "rd": 227.73539941351623
+        "rating": 1249.4615304695385,
+        "mainFaction": "Imperial Knights",
+        "matches": 8,
+        "matchesWon": 2,
+        "matchesLost": 6,
+        "rd": 146.72750545960238
     },
     {
         "id": "op0VQWt0jk",
@@ -622,12 +622,12 @@
     {
         "id": "jloJl23noWSX",
         "name": "Alejandro Alonso",
-        "rating": 1200.374196226264,
+        "rating": 1150.1531288000874,
         "mainFaction": "T'au Empire",
-        "matches": 3,
-        "matchesWon": 0,
-        "matchesLost": 3,
-        "rd": 227.73540249000166
+        "matches": 8,
+        "matchesWon": 2,
+        "matchesLost": 6,
+        "rd": 146.72750481324172
     },
     {
         "id": "EJ8bxdc9rlbi",
@@ -682,22 +682,22 @@
     {
         "id": "BUN3bWqrHUzG",
         "name": "Héctor Rosa Cabrera",
-        "rating": 1400.124734773858,
+        "rating": 1203.358485910393,
         "mainFaction": "Space Marines (Astartes)",
-        "matches": 3,
+        "matches": 6,
         "matchesWon": 1,
-        "matchesLost": 2,
-        "rd": 227.73539941351623
+        "matchesLost": 5,
+        "rd": 167.6807614132059
     },
     {
         "id": "hGQxiUT8CL5k",
         "name": "Ruben Palacian",
-        "rating": 1200.374196226264,
+        "rating": 1003.607928524821,
         "mainFaction": "Thousand Sons",
-        "matches": 3,
+        "matches": 6,
         "matchesWon": 0,
-        "matchesLost": 3,
-        "rd": 227.73540249000166
+        "matchesLost": 6,
+        "rd": 167.68076982854222
     },
     {
         "id": "n0nVferpi3EB",
@@ -722,22 +722,22 @@
     {
         "id": "Ytu6VcrQcr",
         "name": "David Hernández López",
-        "rating": 1599.875265226142,
+        "rating": 1650.0963289176057,
         "mainFaction": "Emperor's Children",
-        "matches": 3,
-        "matchesWon": 2,
-        "matchesLost": 1,
-        "rd": 227.73539941351623
+        "matches": 8,
+        "matchesWon": 5,
+        "matchesLost": 3,
+        "rd": 146.72749901743748
     },
     {
         "id": "N9XCCWECAT",
         "name": "Ricardo Skained",
-        "rating": 1400.124734773858,
-        "mainFaction": "Genestealer Cult",
-        "matches": 3,
-        "matchesWon": 1,
-        "matchesLost": 2,
-        "rd": 227.73539941351623
+        "rating": 1450.3457984653219,
+        "mainFaction": "Necrons",
+        "matches": 8,
+        "matchesWon": 4,
+        "matchesLost": 4,
+        "rd": 146.72749901743748
     },
     {
         "id": "lV2FARb4t2",
@@ -748,5 +748,185 @@
         "matchesWon": 1,
         "matchesLost": 2,
         "rd": 227.73539941351623
+    },
+    {
+        "id": "ggHhqNXjoV",
+        "name": "Victor Goñi",
+        "rating": 1599.875265226142,
+        "mainFaction": "Astra Militarum",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 1,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "G5YCFWKLaHFa",
+        "name": "Ignacio  Garcia",
+        "rating": 1599.875265226142,
+        "mainFaction": "Dark Angels",
+        "matches": 3,
+        "matchesWon": 2,
+        "matchesLost": 1,
+        "rd": 227.73539941351623
+    },
+    {
+        "id": "uF3lGuww6X",
+        "name": "Abraham Sanchez",
+        "rating": 1716.3883606352622,
+        "mainFaction": "Tyranids",
+        "matches": 5,
+        "matchesWon": 4,
+        "matchesLost": 1,
+        "rd": 193.53427557859308
+    },
+    {
+        "id": "bLYziDPC1c",
+        "name": "Tanausu Rodríguez",
+        "rating": 1716.3883606352622,
+        "mainFaction": "Adeptus Mechanicus",
+        "matches": 5,
+        "matchesWon": 4,
+        "matchesLost": 1,
+        "rd": 193.53427557859308
+    },
+    {
+        "id": "34B88L3R97",
+        "name": "Enrique Aguirre",
+        "rating": 1572.129452811094,
+        "mainFaction": "Thousand Sons",
+        "matches": 5,
+        "matchesWon": 3,
+        "matchesLost": 2,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "2BWU313APJ",
+        "name": "Paco Torres",
+        "rating": 1572.129452811094,
+        "mainFaction": "Leagues of Votann",
+        "matches": 5,
+        "matchesWon": 3,
+        "matchesLost": 2,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "IjUjAiXgIC",
+        "name": "Aaron González",
+        "rating": 1500.0,
+        "mainFaction": "Grey Knights",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 2,
+        "rd": 193.53427447080372
+    },
+    {
+        "id": "99H7W1NJ13",
+        "name": "Ismael González",
+        "rating": 1500.0,
+        "mainFaction": "Necrons",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 2,
+        "rd": 193.53427447080372
+    },
+    {
+        "id": "RdBUQD7VIMr6",
+        "name": "Marcos Negrín Galván",
+        "rating": 1427.870547188906,
+        "mainFaction": "Drukhari",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 3,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "k1dobbkAVCnU",
+        "name": "Yauce Castellano",
+        "rating": 1427.870547188906,
+        "mainFaction": "Blood Angels",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 3,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "53EWFc9dZu",
+        "name": "Adonai Luís Martín",
+        "rating": 1427.870547188906,
+        "mainFaction": "World Eaters",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 3,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "1C48UA93WK",
+        "name": "Eliezer López",
+        "rating": 1427.870547188906,
+        "mainFaction": "Aeldari",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 3,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "tL4VSa8DUb",
+        "name": "Zaladino Zamora de la Rosa",
+        "rating": 1427.870547188906,
+        "mainFaction": "Space Marines (Astartes)",
+        "matches": 5,
+        "matchesWon": 2,
+        "matchesLost": 3,
+        "rd": 193.53427459388547
+    },
+    {
+        "id": "UPrbGA9coVNs",
+        "name": "NachoForta Pérez",
+        "rating": 1283.6116393647378,
+        "mainFaction": "Chaos Daemons",
+        "matches": 5,
+        "matchesWon": 1,
+        "matchesLost": 4,
+        "rd": 193.53427557859308
+    },
+    {
+        "id": "C4D89V2PG9",
+        "name": "José María Díaz Sánchez",
+        "rating": 1283.6116393647378,
+        "mainFaction": "Death Guard",
+        "matches": 5,
+        "matchesWon": 1,
+        "matchesLost": 4,
+        "rd": 193.53427557859308
+    },
+    {
+        "id": "7GFv3zbyAs",
+        "name": "raul alvarado",
+        "rating": 1332.4709147089316,
+        "mainFaction": "T'au Empire",
+        "matches": 4,
+        "matchesWon": 1,
+        "matchesLost": 3,
+        "rd": 208.56031831575942
+    },
+    {
+        "id": "4s6sXPo0agKO",
+        "name": "Heriberto Suárez",
+        "rating": 1164.9418214068892,
+        "mainFaction": "Deathwatch",
+        "matches": 4,
+        "matchesWon": 0,
+        "matchesLost": 4,
+        "rd": 208.56032080901497
+    },
+    {
+        "id": "fF7OgiC6pM",
+        "name": "Abian Caetano Ramirez",
+        "rating": 1200.374196226264,
+        "mainFaction": "Space Marines (Astartes)",
+        "matches": 3,
+        "matchesWon": 0,
+        "matchesLost": 3,
+        "rd": 227.73540249000166
     }
 ]
